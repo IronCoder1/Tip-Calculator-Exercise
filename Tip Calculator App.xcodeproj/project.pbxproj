@@ -13,6 +13,7 @@
 		6C416D5A1CD0D0CD003F41C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C416D581CD0D0CD003F41C8 /* Main.storyboard */; };
 		6C416D5C1CD0D0CD003F41C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C416D5B1CD0D0CD003F41C8 /* Assets.xcassets */; };
 		6C416D5F1CD0D0CD003F41C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C416D5D1CD0D0CD003F41C8 /* LaunchScreen.storyboard */; };
+		6C416D681CD0D1FC003F41C8 /* TipCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C416D671CD0D1FC003F41C8 /* TipCalc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6C416D5B1CD0D0CD003F41C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C416D5E1CD0D0CD003F41C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C416D601CD0D0CD003F41C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C416D661CD0D1FC003F41C8 /* TipCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipCalc.h; path = "../../Tip Calculator/Tip Calculator/TipCalc.h"; sourceTree = "<group>"; };
+		6C416D671CD0D1FC003F41C8 /* TipCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipCalc.m; path = "../../Tip Calculator/Tip Calculator/TipCalc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				6C416D521CD0D0CD003F41C8 /* AppDelegate.h */,
 				6C416D531CD0D0CD003F41C8 /* AppDelegate.m */,
+				6C416D661CD0D1FC003F41C8 /* TipCalc.h */,
+				6C416D671CD0D1FC003F41C8 /* TipCalc.m */,
 				6C416D551CD0D0CD003F41C8 /* ViewController.h */,
 				6C416D561CD0D0CD003F41C8 /* ViewController.m */,
 				6C416D581CD0D0CD003F41C8 /* Main.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C416D681CD0D1FC003F41C8 /* TipCalc.m in Sources */,
 				6C416D571CD0D0CD003F41C8 /* ViewController.m in Sources */,
 				6C416D541CD0D0CD003F41C8 /* AppDelegate.m in Sources */,
 				6C416D511CD0D0CD003F41C8 /* main.m in Sources */,
